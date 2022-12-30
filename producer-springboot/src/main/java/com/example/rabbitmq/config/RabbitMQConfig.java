@@ -10,6 +10,7 @@ public class RabbitMQConfig {
 
     public static final String EXCHANGE_NAME = "boot_topic_exchange";
     public static final String QUEUE_NAME = "boot_queue";
+   // public static final String QUEUE_NAME1 = "boot_queue";
 
     //1.交换机
     @Bean("bootExchange")
